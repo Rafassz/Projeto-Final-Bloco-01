@@ -71,6 +71,7 @@ public class Menu {
 				System.out.println(Cores.TEXT_YELLOW + "Finalizando Execução...\n\n");
 
 				break;
+				
 			}
 
 		}
