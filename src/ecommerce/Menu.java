@@ -13,6 +13,7 @@ public class Menu {
 		int opcao;
 
 		while (true) {
+			
 			System.out.println(Cores.TEXT_YELLOW + Cores.ANSI_BLACK_BACKGROUND
 					+ "****************************************************************");
 			System.out.println("                                                                ");
@@ -31,8 +32,7 @@ public class Menu {
 			System.out.println("****************************************************************");
 			System.out.println("Entre com a opção desejada:                                     ");
 			System.out.println("                                                                " + Cores.TEXT_RESET);
-			opcao = scanner.nextInt();
-
+			
 			try {
 				opcao = scanner.nextInt();
 			} catch (InputMismatchException e) {
@@ -64,9 +64,9 @@ public class Menu {
 				System.out.println(Cores.TEXT_YELLOW + Cores.ANSI_BLACK_BACKGROUND + "                              Caixa                             ");
 				break; 
 			case 6:
-				System.out.println(Cores.TEXT_YELLOW + Cores.ANSI_BLACK_BACKGROUND + "                 Teste (Versão para Clientes)        \n\n");
-				System.out.println("                    Iniciando...                     ");
-				break;
+				System.out.println(Cores.TEXT_YELLOW + Cores.ANSI_BLACK_BACKGROUND + "                       Teste (Versão para Clientes)               \n\n");
+				System.out.println("                        Iniciando...                            ");
+				break; 
 			case 7:
 				System.out.println(Cores.TEXT_YELLOW + "Finalizando Execução...\n\n");
 
